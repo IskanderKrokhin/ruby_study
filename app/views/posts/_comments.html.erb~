@@ -1,0 +1,11 @@
+<% commentable.comments.each do |comment|  %>
+	<li>
+		<div>
+			<%= comment.title %> 
+		</div>
+
+		<div>
+			<%= comment.message %> 
+		</div>
+	</li>
+<% end %> 
